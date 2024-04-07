@@ -1,0 +1,180 @@
+@font-face{
+	font-family: "Arial";
+	src: url("arial.ttf");
+}
+
+*{
+	margin: 0px;
+	vertical-align: middle;
+	font-family: "Arial";
+	line-height: 1;
+}
+
+p, li, textarea, td, button, input{
+	font-size: 32pt;
+}
+
+p sup, p sub, li sup, li sub, td sup, td sub, button sup, button sub{
+	font-size: 16pt;
+	position: relative;
+}
+
+p sup, li sup, td sup, button sup{
+	bottom: 20px;
+}
+
+p sub, li sub, td sub, button sub{
+	top: 10px;
+}
+
+body{
+	padding: 20px;
+}
+
+ol.lista_buttons li, ul li.item_button{
+	margin: 96pt 0;
+}
+
+ol, ul{
+	padding: 0px 120px;
+}
+
+ol ol, ol ul, ul ol, ul ul{
+	padding: 0px 0px 0px 120px;
+}
+
+br{
+	padding: 96pt 0pt;
+	display: block;
+	content: "";
+}
+
+button{
+	text-align: center;
+	line-height: 3;
+}
+
+p, li, textarea, td{
+	text-align: justify;
+	line-height: 3;
+}
+
+input{
+	text-align: center;
+}
+
+input.pix_copia_cola{
+	width: 800px;
+}
+
+textarea{
+	resize: none;
+}
+
+div{
+	margin: 0px auto;
+	text-align: center;
+}
+
+div.div_comum{
+	max-width: 800px;
+}
+
+iframe{
+	margin: 0px auto;
+	display: block;
+	border: solid black 5px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	text-align: center;
+	line-height: 3;
+}
+
+img.btn_paypal{
+	width: 400px;
+}
+
+h6{
+	font-size: 40pt;
+}
+
+h5{
+	font-size: 48pt;
+}
+
+h4{
+	font-size: 56pt;
+}
+
+h3{
+	font-size: 64pt;
+}
+
+h2{
+	font-size: 72pt;
+}
+
+h1{
+	font-size: 80pt;
+}
+
+table{
+	margin: 0px auto;
+}
+
+div.div_table, div.div_textarea{
+	overflow-x: scroll;
+	overflow-y: scroll;
+	border: solid black 5px;
+	max-width: 800px;
+	max-height: 450px;
+}
+
+div.div_table table{
+	min-width: 1000px;
+}
+
+div.div_textarea textarea{
+	min-width: 1200px;
+	min-height: 1200px;
+	overflow-x: none;
+	overflow-y: none;
+}
+
+td{
+	border: solid black 5px;
+}
+
+table tr td.titulo{
+	text-align: center;
+}
+
+hr{
+	border: none;
+	height: 5px;
+	/* Set the hr color */
+	background-color: black; /* Modern Browsers */
+}
+
+img, video{
+	max-width: 800px;
+	max-height: 450px;
+	border: solid black 5px;
+}
+
+ul{
+	list-style-type: disc;
+}
+
+ul ul{
+	list-style-type: circle;
+}
+
+ul ul ul{
+	list-style-type: square;
+}
+
+audio{
+	min-width: 400px;
+}
